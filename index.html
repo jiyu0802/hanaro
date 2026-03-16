@@ -119,6 +119,25 @@ header{
     animation: fadeInUp 1s ease-out 0.2s both;
 }
 
+.hero-eyebrow{
+    font-size:18px;
+    font-weight:600;
+    color:var(--primary);
+    margin-bottom:16px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    animation: fadeInUp 1s ease-out 0s both;
+}
+
+.hero-desc{
+    font-size:18px;
+    color:var(--gray-500);
+    max-width:600px;
+    margin:0 auto 40px;
+    line-height:1.7;
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
 @keyframes fadeInUp{
     from{
         opacity:0;
@@ -600,10 +619,10 @@ footer p{
 </nav>
 
 <header>
+    <p class="hero-eyebrow">광고 말고, 실제 경험만 보세요</p>
     <h1 class="hero-title">후일담</h1>
     <h2 class="hero-subtitle">방문 전에<br>실패를 줄여주는<br>리뷰 탐색 경험</h2>
-    <p>광고 말고, 실제 경험만 보세요</p>
-    <p>후일담은 광고성 후기보다 실제 불만과 솔직한 경험을 먼저 보여줘서, 식당과 공간을 고를 때 더 빠르게 판단할 수 있게 돕는 리뷰 플랫폼입니다.</p>
+    <p class="hero-desc">후일담은 광고성 후기보다 실제 불만과 솔직한 경험을 먼저 보여줘서, 식당과 공간을 고를 때 더 빠르게 판단할 수 있게 돕는 리뷰 플랫폼입니다.</p>
     <a href="#cta" class="btn">사전 신청</a>
 </header>
 
